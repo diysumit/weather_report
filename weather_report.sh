@@ -31,5 +31,5 @@ echo "`date +"%Y %m %d"` $today $forcasted" >> weather_report
 #adding this to crontab
 #crontab -r 
 #crontab -e
-
-#0 12 * * * /Desktop/Projects/Hands-on \Introduction \to \Linux \Commands \and \Shell \Scripting/weather_report.sh
+#to make is run every day at noon
+#0 12 * * * /location_to_script/weather_report.sh
